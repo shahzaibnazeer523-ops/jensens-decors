@@ -1,0 +1,142 @@
+[
+  {
+    "id": "p1",
+    "name": "Geometric Gold Grid",
+    "category": "Metal wall art",
+    "brand": "Gloster",
+    "price": "Pkr. 5,500",
+    "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?auto=format&fit=crop&w=500&q=80",
+    "shortDesc": "A stunning piece of geometric array suited for minimalistic interiors.",
+    "features": ["Material: Wrought Iron", "Finish: Gold Plated", "Dimensions: 30x40 inches", "Weight: 4 lbs"]
+  },
+  {
+    "id": "p2",
+    "name": "Vintage Botanicals",
+    "category": "Wall papers",
+    "brand": "Casa",
+    "price": "Pkr. 8500/roll",
+    "image": 
+    "shortDesc": "Premium textured wallpaper featuring elegant floral patterns.",
+    "features": ["Material: Vinyl", "Type: Peel and Stick", "Coverage: 50 sq ft/roll", "Washable: Yes"]
+  },
+  {
+    "id": "p3",
+    "name": "Oakwood Trio Frames",
+    "category": "Photo frame art",
+    "brand": "Arttdinox",
+    "price": "Pkr. 12,000",
+    "image": "https://images.unsplash.com/photo-1578926078328-123456789012?auto=format&fit=crop&w=500&q=80",
+    "shortDesc": "Set of three solid oak frames perfect for family portraits.",
+    "features": ["Material: Solid Oak", "Glass: Antiglare tempered", "Mounting: Vertical/Horizontal", "Sizes: 8x10, 5x7"]
+  },
+  {
+    "id": "p4",
+    "name": "Sunburst Brass Mirror",
+    "category": "Mirror art",
+    "brand": "Zenza",
+    "price": "Pkr. 29900",
+    "image": "https://images.unsplash.com/photo-1579541694606-d4d8e7c8e06e?auto=format&fit=crop&w=500&q=80",
+    "shortDesc": "Elegant round mirror encased in a premium brushed brass sunburst frame.",
+    "features": ["Material: Brass & Glass", "Diameter: 36 inches", "Style: Mid-Century Modern", "Hardware included: Yes"]
+  },
+  {
+    "id": "p5",
+    "name": "Invisible Float Shelf",
+    "category": "Wall shelves",
+    "brand": "Lofina",
+    "price": "Pkr. 6540",
+    "image": "https://images.unsplash.com/photo-1544498308-f1c5cbaeadd6?auto=format&fit=crop&w=500&q=80",
+    "shortDesc": "Sleek floating wooden shelves with hidden brackets.",
+    "features": ["Material: Walnut Wood", "Load Capacity: 20 lbs", "Dimensions: 24x6x2 inches", "Finish: Matte"]
+  },
+  {
+    "id": "p6",
+    "name": "Poly Stag Head",
+    "category": "Wall mounted animals",
+    "brand": "Gloster",
+    "price": "Pkr. 11000",
+    "image": "https://images.unsplash.com/photo-1544498308-f1c5cbaeadd6?auto=format&fit=crop&w=500&q=80",
+    "shortDesc": "Modern low-poly faux stag head in matte white.",
+    "features": ["Material: Resin", "Style: Geometric", "Color: Matte White", "Dimensions: 14x18 inches"]
+  },
+  {
+    "id": "p7",
+    "name": "Rustic Silver Leaves",
+    "category": "Metal wall art",
+    "brand": "Zenza",
+    "price": "Pkr. 19500",
+    "image": "https://images.unsplash.com/photo-1578500494198-246f612d03b3?auto=format&fit=crop&w=500&q=80",
+    "shortDesc": "Intricate silver leaf pattern handmade by artisans.",
+    "features": ["Material: Stainless Steel", "Finish: Brushed Silver", "Dimensions: 40x20 inches"]
+  },
+  {
+    "id": "p8",
+    "name": "Modern Hexagon Mirror",
+    "category": "Mirror art",
+    "brand": "Gloster",
+    "price": "Pkr. 21000",
+    "image": "https://images.unsplash.com/photo-1579541694606-d4d8e7c8e06e?auto=format&fit=crop&w=500&q=80",
+    "shortDesc": "A statement piece featuring bevelled edges in a hexagon shape.",
+    "features": ["Material: Glass", "Shape: Hexagonal", "Dimensions: 28x28 inches", "Edge: Bevelled"]
+  },
+  {
+    "id": "p3",
+    "name": "Oakwood Trio Frames",
+    "category": "Photo frame art",
+    "brand": "Arttdinox",
+    "price": "Pkr. 12,000",
+    "image": "assets/photo_frame.png",
+    "shortDesc": "Set of three solid oak frames perfect for family portraits.",
+    "features": ["Material: Solid Oak", "Glass: Antiglare tempered", "Mounting: Vertical/Horizontal", "Sizes: 8x10, 5x7"]
+  },
+  {
+    "id": "p4",
+    "name": "Sunburst Brass Mirror",
+    "category": "Mirror art",
+    "brand": "Zenza",
+    "price": "Pkr. 29900",
+    "image": "assets/mirror_art.png",
+    "shortDesc": "Elegant round mirror encased in a premium brushed brass sunburst frame.",
+    "features": ["Material: Brass & Glass", "Diameter: 36 inches", "Style: Mid-Century Modern", "Hardware included: Yes"]
+  },
+  {
+    "id": "p5",
+    "name": "Invisible Float Shelf",
+    "category": "Wall shelves",
+    "brand": "Lofina",
+    "price": "Pkr. 6540",
+    "image": "assets/wall_shelf.png",
+    "shortDesc": "Sleek floating wooden shelves with hidden brackets.",
+    "features": ["Material: Walnut Wood", "Load Capacity: 20 lbs", "Dimensions: 24x6x2 inches", "Finish: Matte"]
+  },
+  {
+    "id": "p6",
+    "name": "Poly Stag Head",
+    "category": "Wall mounted animals",
+    "brand": "Gloster",
+    "price": "Pkr. 11000",
+    "image": "assets/wallpaper.png",
+    "shortDesc": "Modern low-poly faux stag head in matte white.",
+    "features": ["Material: Resin", "Style: Geometric", "Color: Matte White", "Dimensions: 14x18 inches"]
+  },
+  {
+    "id": "p7",
+    "name": "Rustic Silver Leaves",
+    "category": "Metal wall art",
+    "brand": "Zenza",
+    "price": "Pkr. 19500",
+    "image": "assets/metal_art.png",
+    "shortDesc": "Intricate silver leaf pattern handmade by artisans.",
+    "features": ["Material: Stainless Steel", "Finish: Brushed Silver", "Dimensions: 40x20 inches"]
+  },
+  {
+    "id": "p8",
+    "name": "Modern Hexagon Mirror",
+    "category": "Mirror art",
+    "brand": "Gloster",
+    "price": "Pkr. 21000",
+    "image": "assets/banner.png",
+    "shortDesc": "A statement piece featuring bevelled edges in a hexagon shape.",
+    "features": ["Material: Glass", "Shape: Hexagonal", "Dimensions: 28x28 inches", "Edge: Bevelled"]
+  }
+]

@@ -1,0 +1,256 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Container constraints for better page sizing */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .section {
+        padding: 40px 15px;
+    }
+    
+    .compare-section .section-title {
+        font-size: 2rem;
+    }
+    
+    .contact-section .section-title {
+        font-size: 2rem;
+    }
+    
+    .compare-selectors {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .compare-selectors select {
+        min-width: 100%;
+    }
+    
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+#result, #output {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+}
+
+/* Center-align hero slide text */
+.hero-content {
+    text-align: center;
+}
+
+.carousel-caption {
+    text-align: center;
+}
+
+/* Compare Section Styling */
+.compare-section {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    padding: 60px 20px;
+    color: white;
+}
+
+.compare-section .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.compare-section .section-subtitle {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+}
+
+.compare-selectors {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.compare-selectors select {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: white;
+    color: #161616;
+    cursor: pointer;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.compare-selectors {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.compare-selectors .vs {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+}
+
+.compare-results {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.compare-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+/* Contact Section Styling */
+.contact-section {
+    background: linear-gradient(135deg, #060707 0%, #191a1b 100%);
+    padding: 60px 20px;
+    color: rgb(141, 140, 140);
+}
+
+.contact-section .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: rgb(243, 240, 240);
+    text-align: center;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    max-width: 100%;
+}
+
+.contact-card {
+    background: rgba(241, 239, 239, 0.95);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    color: #28425c;
+    border-left: 5px solid #34495e;
+    word-wrap: break-word;
+}
+
+.contact-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #17181a;
+}
+
+.contact-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+    word-wrap: break-word;
+}
+
+.btn-secondary {
+    display: inline-block;
+    background-color: #34495e;
+    color: rgb(238, 232, 232);
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #0f0f0f;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+    background-color: white;
+    color: #34495e;
+}
+
+.map-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    height: 400px;
+    max-width: 100%;
+}
+
+/* Additional responsive design for very small screens */
+@media (max-width: 480px) {
+    .compare-section .section-title,
+    .contact-section .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .contact-card {
+        padding: 20px;
+    }
+    
+    .contact-card h3 {
+        font-size: 1.5rem;
+    }
+    
+    .map-container {
+        height: 300px;
+    }
+}
